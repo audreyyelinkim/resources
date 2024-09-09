@@ -1,1 +1,45 @@
 Answers go here!
+PROBLEM 1:
+The line number where the error was. 
+  249
+A short explanation of the nature of the error (one or two sentences). 
+  The user used a null pointer. 
+A short explanation of what you did to fix the error. 
+  I corrected the line invaders[invaderRow][invaderRow] = new Warrior(); to invaders[invaderRow][invaderCol] = new Warrior();.
+
+
+PROBLEM 2:
+The line number where the error was. 
+  27
+A short explanation of the nature of the error (one or two sentences). 
+  There was an semicolon at the end of the first if statement.
+A short explanation of what you did to fix the error. 
+  I deleted the semicolon.
+
+
+PROBLEM 3:
+The line number where the error was. 
+  110
+A short explanation of the nature of the error (one or two sentences). 
+  The array where the skirmish line is was not getting updated after the invader was deleted. 
+A short explanation of what you did to fix the error. 
+  I set this part of the array to nullptr. 
+
+PROBLEM 4:
+The line number where the error was. 
+  55
+
+A short explanation of the nature of the error (one or two sentences). 
+  DeallocateWarriors() wasn't correctly deleting memory according to the actual dimensions that are created by AllocateWarriors(). 
+
+A short explanation of what you did to fix the error. 
+  I edited the statements that delete memory in DeallocateWarriors() to fit the correct dimensions. 
+
+
+PROBLEM 5:
+The line number where the error was. 
+  105
+A short explanation of the nature of the error (one or two sentences). 
+  The code made it so that if that the invaderPower was less than protectorPower, the protector would be lost, which is incorrect. 
+A short explanation of what you did to fix the error. 
+  I changed the statement that made protectorLost = true to continue. 
